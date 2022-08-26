@@ -2,6 +2,7 @@
 Exercice 2 - Introduction JDBC
 2. But de l’application
 Créez une application capable de lire une table de personnes stockée dans une base de données MySQL/HSQLDB/Access via la librairie JDBC. Les deux boutons permettent de balayer les différentes personnes de la table chargée dans une liste.
+3. Diagramme d’activité de l’application
 
 4. Diagramme des classes
 La vue est représentée par un fichier fxml, le contrôleur regroupe les écouteurs et les accès aux contrôles de l’application. Le worker et son interface exécute les tâches lourdes de l’application. Ce modèle à couches se retrouvera tout au long du module avec des extensions.  
@@ -14,9 +15,10 @@ Si vous installez la dernière version du serveur MySQL (8.0.x), il faut impéra
 
 Dans le contrôleur, on catch l’exception pour la mettre dans une popup. Vous pouvez remarquer que la méthode du worker est void, cela peut se faire si l’on utilise le throws.
 
-
+ 
 5. Maquette de l’application
 
+      
 
 
 6. Comment débuter ?
@@ -34,4 +36,4 @@ Il est possible d'utiliser votre programme de manière transparente avec une aut
 Pour se connecter, la meilleur façon est d'utiliser un driver proposé par un autre canal (gratuit ou payant), par exemple: uCanAccess. 
 Faites une classe de test pour Access de la même manière que pour MySQL, la base de données est dans le répertoire data.
 8. Pour les rapides
-Créez une base de données SQLite ![image](https://user-images.githubusercontent.com/3630367/186989841-26850ec8-bfa8-4888-a348-5e298597598a.png)
+Créez une base de données SQLite ![image](https://user-images.githubusercontent.com/3630367/186989985-7d2e68d4-4791-4e63-b07f-10cbdfdd2e29.png)
